@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Digital Clock With Date</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/6cce385af9.js" crossorigin="anonymous"></script>
+
+  <!-- styles css -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body onload="initClock()">
+
+  <div class="container">
+    <div class="header">
+        <div class="clear">
+            <i class="fa fa-refresh"></i>
+        </div>
+        <div class="datetime">
+          <div class="date">
+            <span id="dayname">Day</span>,
+            <span id="month">Month</span>
+            <span id="daynum">00</span>,
+            <span id="year">Year</span>
+          </div>
+          <div class="time">
+            <span id="hour">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+          </div>
+        </div>
+    </div>
+            <div class="content">
+              <ul id="list">
+              </ul>
+            </div>
+            <div class="add-to-do">
+              <i class="fa fa-plus-circle" id="btn"></i>
+              <input type="text" id="input" placeholder="Add a To-Do">
+            </div>
+
+        </div>
+
+
+
+  <script type="text/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>
